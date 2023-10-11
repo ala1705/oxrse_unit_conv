@@ -30,3 +30,5 @@ lb = pound
 # mole
 
 # candela
+
+ala = Unit(name='ala', abbr='ala', si=candela, to_si_fun=lambda n : n * 1000)
